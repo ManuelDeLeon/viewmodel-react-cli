@@ -1,0 +1,30 @@
+{
+  "name": "viewmodel-react-cli",
+  "version": "1.0.8",
+  "description": "Command line interface tool for creating React view models.",
+  "main": "./lib/viewmodel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "viewmodel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManuelDeLeon/viewmodel-react-cli"
+  },
+  "author": {
+    "name": "Manuel De Leon",
+    "email": "manuel@me.com"
+  },
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "viewmodel": "./bin/viewmodel.js"
+  },
+  "readmeFilename": "Readme.md",
+  "engines": {
+    "node": ">= 0.10.x"
+  }
+}
